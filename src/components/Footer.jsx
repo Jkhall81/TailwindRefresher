@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const Footer = () => {
-  const [currentYear, setCurrentYear] = useState("");
+  const [currentYear, setCurrentYear] = useState();
 
   useEffect(() => {
     const year = new Date().getFullYear();
@@ -37,6 +37,7 @@ const Footer = () => {
           <p className="text-right">
             Copyright &copy; <span id="year">{currentYear}</span>
           </p>
+          <p className="text-right">All Rights Reserved</p>
         </div>
       </section>
     </footer>
