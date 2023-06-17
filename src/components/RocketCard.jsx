@@ -1,11 +1,7 @@
 import React from "react";
 
-const RocketCard = ({
-  imageSrc,
-  headingText,
-  paragraphTextOne,
-  paragraphTextTwo,
-}) => {
+const RocketCard = (props) => {
+  const { imageSrc, headingText, paragraphTextOne, paragraphTextTwo } = props;
   return (
     <>
       <li className="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid dark:bg-black border-slate-900 dark:border-gray-100 bg-white py-6 px-2 rounded-3xl shadow-xl">
