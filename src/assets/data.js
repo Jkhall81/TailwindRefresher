@@ -19,4 +19,20 @@ const rocketData = [
   },
 ];
 
-export default rocketData;
+const TestimonialData = [
+  {
+    quoteText:
+      "Acme has always been there for me.  They were so amazing at taking my money!  Life-long customer!  Giving them my money really changed my life!",
+    person: "Bobby John Thomas, Professional Landscapper",
+  },
+  {
+    quoteText: "Acme gots like, the best shit!",
+    person: "Dookie Shoes, Aspiring Poet",
+  },
+  {
+    quoteText: "I bought an ACME rocket, now I want to murder myself...",
+    person: "Sad Joe Dunway, Unemployeed",
+  },
+];
+
+export { rocketData, TestimonialData };

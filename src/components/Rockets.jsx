@@ -1,6 +1,6 @@
 import React from "react";
 import RocketCard from "./RocketCard";
-import rocketData from "../assets/data.js";
+import { rocketData } from "../assets/data.js";
 
 const Rockets = () => {
   return (
@@ -9,6 +9,9 @@ const Rockets = () => {
         <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
           Our Rockets
         </h2>
+        <p className="text-center text-2xl">
+          <small>(None of the pictures are Rockets...... or are they?)</small>
+        </p>
         <ul className="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
           {rocketData.map((rocket, index) => (
             <RocketCard
