@@ -23,6 +23,9 @@ const Rockets = () => {
             />
           ))}
         </ul>
+        <p className="text-center">
+          Note... Product not guaranteed to work as advertised!
+        </p>
       </section>
       <hr className="w-1/2 mx-auto bg-black dark:bg-white" />
     </>

@@ -33,6 +33,11 @@ const TestimonialData = [
     quoteText: "I bought an ACME rocket, now I want to murder myself...",
     person: "Sad Joe Dunway, Unemployeed",
   },
+  {
+    quoteText:
+      "Jason really did an amazing job on this shit!  Added this quote like a pro!",
+    person: "Not Jason Hall",
+  },
 ];
 
 export { rocketData, TestimonialData };
